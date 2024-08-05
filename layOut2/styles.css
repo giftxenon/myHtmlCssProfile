@@ -1,0 +1,258 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+#header-main {
+  width: 100%;
+  min-height: 50px;
+}
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header-logo {
+  width: 25%;
+  min-height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+}
+#header-nav {
+  width: 75%;
+  min-height: 50px;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+  float: right;
+}
+#header-nav a {
+  display: inline-block;
+  width: 16%;
+  min-height: 50px;
+  color: white;
+  text-decoration: none;
+}
+#header-nav a:hover {
+  text-decoration: underline;
+}
+
+#content-main {
+  width: 100%;
+  min-height: 400px;
+  background-color: lightgrey;
+  padding: 0;
+}
+.profile-main {
+  width: 80%;
+  min-height: 400px;
+
+  margin: auto;
+}
+#profile-pic {
+  width: 25%;
+  min-height: 400px;
+
+  float: left;
+  padding-top: 50px;
+}
+
+#content-main .profile-main #profile-pic img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 200px;
+}
+#content-main .profile-main #profile-pic p {
+  text-align: center;
+  font-size: 15px;
+  font-fmaily: georgia;
+  padding-top: 10px;
+}
+#profile-Bio {
+  width: 75%;
+  min-height: 400px;
+
+  float: right;
+  padding-top: 60px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#profile-Bio h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#profile-Bio h2 p {
+  padding-left: 2%;
+}
+#profile-Bio a {
+  display: inline-block;
+  width: 25%;
+  min-height: 40px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-left: 130px;
+  border-radius: 5px;
+}
+#qualification {
+  width: 100%;
+  min-height: 200px;
+  background-color: white;
+}
+#qualification h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+#qualification table {
+  width: 65%;
+  min-height: 200px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom:30px;
+  border-raduis: 5px;
+  //margin-bottom:20px;
+}
+#qualification table tr:nth-child(1) {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#qualification table tr:nth-child(even) {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+#qualification table tr:nth-child(odd) {
+  text-align: center;
+}
+
+#Skills{
+  width: 100%;
+  min-height: 200px;
+  background-color: lightgrey;
+}
+#Skills h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+#Skills table {
+  width: 60%;
+  min-height: 150px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px
+}
+#Skills table tr:nth-child(1) {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#Skills table tr:nth-child(even) {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+#Skills table tr:nth-child(odd) {
+  text-align: center;
+}
+#Projects{
+  width: 100%;
+  min-height: 1100px;
+  background-color:white;
+  padding-top:30px;
+}
+#Projects h2 {
+  text-align: center;
+  margin-bottom:20px;
+
+}
+#Projects .row {
+  width: 80%;
+  min-height:300px;
+  background-color:orange;
+  margin: auto;
+ // padding-bottom: 10px;
+}
+#Projects .row .col{
+  width:50%;
+  min-height:300px;
+  background-color:white;
+  color:white;
+  float:left;
+}
+#Projects .row .col p{
+  min-height:40px;
+  text-align: center;
+  text-transform:uppercase;
+  background-color:black;
+  color: white;
+  line-height:40px;
+
+}
+#Projects .row .col img{
+display: block;
+width: 60%;
+margin: auto;
+border: 2px solid black;
+border-radius: 10px;
+}
+#contacts{
+  width: 100%;
+  min-height: 400px;
+  background-color:lightgrey;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+#contacts h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+#contacts form{
+  width: 30%;
+  background-color:grey;
+  margin:auto;
+  padding: 2px;
+  border-radius:5px;
+}
+#contacts form label{
+  color: white;
+  font-size:20px;
+}
+#contacts form input{
+  width:100%;
+  min-height:30px;
+}
+#contacts form textarea{
+  width: 100%;
+  min-height: 1px;
+}
+#footer{
+  width:100%;
+  min-height: 50px;
+  background-color:darkgray;
+  margin-top:30px;
+  border-radius: 10px;
+  margin-bottom:4px;
+}
+
+#footer #footer1{
+  width: 30%;
+  color:black;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+ 
